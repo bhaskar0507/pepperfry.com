@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing Page</title>
-<!-- Rinku's Code  -->
-    <link rel="stylesheet" href="pepperfry.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styleFooter.css">     
-    <!-- Rinku's Code  -->
+    <title>Buy Amelia 1 Seater Sofa in Charcoal Grey Colour</title>
+    <!--    css of productInfo.html   -->
+    <link rel="stylesheet" href="productInfo.css">
+     <!--    css of footer.html   -->
+    <link rel="stylesheet" href="styleFooter.css">    
+     <!--    css of aboutUs.html   -->
+    <link rel="stylesheet" href="aboutUs.css">
 </head>
-<!-- <link rel="stylesheet" href="header1.css"> -->
+
+<!-- body-section starts here -->
 <body>
+
+    <!-- Navbar code start there -->
     <style>
 
       
@@ -187,7 +188,7 @@
     
   <div id="header">
     <div id="head1">
-        <img src="https://ii1.pepperfry.com/images/svg/pf-logo-jan18.svg?v=1">
+        <img onclick="gohome()" src="https://ii1.pepperfry.com/images/svg/pf-logo-jan18.svg?v=1">
         <div id="search">
             <input type="text"placeholder="Search">
             <img src="https://image.flaticon.com/icons/png/128/482/482631.png">
@@ -202,7 +203,7 @@
                 <img src="	https://ii1.pepperfry.com/images/svg/header-wishlist-icon-2021.svg">
                 <p>Wishlist</p>
             </div>
-            <div onclick=incart() class="items">
+            <div onclick="incart()"class="items">
                 <img src="https://ii1.pepperfry.com/images/svg/header-cart-icon-2021.svg
                 ">
                 <p>Cart</p>
@@ -515,72 +516,159 @@
 </div>  
 
  
+    <!-- Navbar code end there -->
 
 
-<!-- Rinku's Home Page Code start -->
 
-<div class="home">
-    <div id="ban">
-        <div class="mainbanner">
-            <div id="mbanner">
-                <div class="carousel">
-                <div class="carousel__item carousel__item--visible">
-                    <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/Promo_13721.gif" />
+    <div id="body-wrap">
+        <div id="container">
+            <div class="row-PI">
+                <div id="image-galary" > 
+                    <div id="div-image">
+                        <img id="image" src="https://ii1.pepperfry.com/media/catalog/product/a/m/568x625/amelia-1-seater-sofa-in-charcoal-grey-colour-by-casacraft-amelia-1-seater-sofa-in-charcoal-grey-colo-dgih4v.jpg" alt=""> 
+                    </div>
+                    <div id="all-images">
+                        <span onclick="prevImage()"  class="arrow" id="left-arrow"><img src="https://ii1.pepperfry.com/images/svg/vip-arrow-left-2020.svg" alt=""></span>
+                        <div id="flex">
+                            <div id="div1" class="mouse"> </div>
+                            <div id="div2" class="mouse"> </div>
+                            <div id="div3" class="mouse"> </div>
+                            <div id="div4" class="mouse"> </div>
+                            <div id="div5" class="mouse"> </div>
+                        </div>
+                        <span onclick="nextImage()" class="arrow" id="right-arrow"><img src="https://ii1.pepperfry.com/images/svg/vip-arrow-right-2020.svg" alt=""></span>
+                    </div>
                 </div>
-                <div class="carousel__item">
-                    <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/HeroBanner_01_13721_n.jpg" />
-                </div>
-                <div class="carousel__item">
-                    <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/HeroBanner_02_13721_n.jpg" />
-                </div>
-                <div class="carousel__item">
-                    <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/HeroBanner_03_13721_n.jpg" />
-                </div>
-                <div class="carousel__item">
-                    <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/HeroBanner_04_13721_n.jpg" />
+                <div id="product-content">
+                    <h1 id="name">Amelia 1 Seater Sofa in Charcoal Grey Colour</h1>
+                    <div id="brand-name-and-tag">
+                        <div id="brand-name">CasaCraft by Pepperfry</div>
+                        <div id="fulfilled-tag">
+                            <img src="https://ii1.pepperfry.com/images/svg/pf-fulfilled-truck-icon.svg" alt="">
+                            <span>Pepperfry Fulfilled</span>
+                        </div>
+                    </div>
+                    <div id="offer-price-wrap">
+                        <span id="rupee-sign" class="red">₹</span>
+                        <span id="price" class="red">21,999</span>
+                        <span id="mrp-price" class="color969696">₹ <span id="cutPrice"> 35,999 </span>MRP</span>
+                        <span class="color969696">(Inclusive of all taxes)</span>
+                    </div>
+                    <div id="total-saving">
+                        <div id="saving-wrap">
+                            <span class="color969696">Total Savings &nbsp;</span>
+                            <span class="fw" ><b>₹ 14,000 (39% Off)</b></span>
+                        </div>
+                    </div>
+                    <div id="promo-img">
+                        <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/Web_VIPCoupon_EndingSoon_2x_13721.jpg" alt="">
+                    </div>
+                    <hr>
+                    <div id="emi-warranty">
+                        <div id="row-emi"> 
+                            <div class="wrap">
+                                <div class="wrap-div1"><img src="	https://ii1.pepperfry.com/images/svg/w20-calender-icon.svg" alt=""></div>
+                                <div class="wrap-div2">
+                                    <span>EMI from ₹ 1,036 </span><br>
+                                    <span>No Cost EMI</span>
+                                </div>
+                            </div>
+                            <div class="wrap">
+                                <div class="wrap-div1"><img src="	https://ii1.pepperfry.com/images/svg/w20-warranty-icon.svg" alt=""></div>
+                                <div class="wrap-div2">
+                                    <span>36 Months </span><br>
+                                    <span>Warranty</span>
+                                </div>
+                            </div>
+                            <div class="wrap">
+                                <div class="wrap-div1"><img src="	https://ii1.pepperfry.com/images/svg/w20-returns-icon.svg" alt=""></div>
+                                <div class="wrap-div2">
+                                    <span>Easy</span><br>
+                                    <span>Returns</span>
+                                </div>
+                            </div>
+                            <div class="wrap">
+                                <div class="wrap-div1"><img src="	https://ii1.pepperfry.com/images/svg/w21-safe-delivery.svg" alt=""></div>
+                                <div class="wrap-div2">
+                                    <span>Safe </span> <br>
+                                    <span>Delivery</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <hr> 
+                    <div id="product-offer-section">
+                        <div id="product-offer-label"><span class="black">More Offers</span></div>
+                        <div id="product-offer-list">
+                            <div>
+                                <span class="fw">HDFC EMI</span><br>
+                                <span> Get Extra Rs.1,500 Off on HDFC EMI Purchases of Rs.10,000 and Above.<br>Code:</span>
+                                <span class="black">HDFCPF1500</span> 
+                            </div>
+                            <div>
+                                <span class="fw">HDFC Bank Credit Card</span><br>
+                                <span> Get Extra Rs.1,000 Off on Purchases through HDFC Credit Card. Applicable on Orders Above Rs.10,000<br>Code:</span>
+                                <span class="black">HDFCPF1000</span> 
+                            </div>
+                            <div>
+                                <span class="fw">No Cost EMI</span><br>
+                                <span>Get up to 6 months EMI with 0% interest rate</span> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div id="cart-and-buy">
+                        <!-- add to cart box --> 
+                        <!-- one button 2 functionality -->
+                        <!-- click second time in add to cart box to go to checkout -->
+                        <div onclick="storeProduct()" id="add-to-cart">ADD TO CART</div>
+
+                         <!-- buy Now box   -->
+                         <!-- show product function will take us to checkout  --> 
+                        <div onclick="checkout()" id="buy-now">BUY NOW</div>
+                    </div>
+                    <hr>
+                    <div id="delivery-section">
+                        <div id="delivery-label" class="black ">Delivery</div>
+                        <div id="delivery-details-wrap">
+                            <div id="pincode">
+                                <input type="text" placeholder="Pincode">
+                                <span class="fw">Apply</span>
+                            </div>
+                            <div id="pincode-details">
+                                 <span class="grey">Enter Pincode to get Delivery Date, Assembly Information and other details</span><br>
+                                <span class="black">Delivery & Assembly Charges Extra. Enter Pincode to Know
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="product-details">
+                        <div id="label" class="black">Details</div>
+                        <div id="details">
+                            <div><span class="black">Brand:&nbsp;</span><span class="grey">CasaCraft</span></div> 
+                            <div><span class="black">Dimensions:&nbsp;</span><span class="grey"> H 34.5 x W 31 x D 31; Seating Height-18.5 (All Dimension in Inches)</span></div> 
+                            <div><span class="black">Weight:&nbsp;</span><span class="grey">21.5 KG</span></div> 
+                            <div><span class="black">Warranty:&nbsp;</span><span class="grey">36 Months' Warranty</span></div> 
+                            <div><span class="black">Assembly:&nbsp;</span><span class="grey">No Assembly Required</span></div> 
+                            <div><span class="black">Primary Material:&nbsp;</span><span class="grey">Fabric</span></div> 
+                            <div><span class="black">Room Type:&nbsp;</span><span class="grey">Living Room</span></div> 
+                            <!-- <div><span class="black">Collection:&nbsp;</span><span class="grey"> Amelia</span></div> 
+                            <div><span class="black">Seating Height:&nbsp;</span><span class="grey">19</span></div> 
+                            <div><span class="black">Sku:&nbsp;</span><span class="grey">FN1668425-S-PM9268</span></div>  -->
+                        </div>
+                    </div>  
                 </div>
             </div>
-            <div id="slide">
-                <div class="carousel__actions">
-                    <button id="carousel__button--1" aria-label="slide1"> 1 </button>
-                    <button id="carousel__button--2" aria-label="slide2"> 2 </button>
-                    <button id="carousel__button--3" aria-label="slide3"> 3 </button>
-                    <button id="carousel__button--4" aria-label="slide4"> 4 </button>
-                    <button id="carousel__button--5" aria-label="slide5"> 5 </button>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div id="banner"></div> 
-    </div>
-    <br />
-    <div class="register_now">
-        <div id="registernow"></div>
-    </div>
-    <div class="safedeliver">
-        <div id="safedeliver"></div>
-    </div>
-    <div class="offerpage">
-        <div id="offers"></div>
-    </div>
-    <div class="vibes">
-        <div id="vibes">
-            <div id="vibes0"></div>
-            <div id="vibes01">
-                <div id="vibes1"></div>
-            </div>
-        </div>
-    </div>
-    
-</div>
+        </div> 
+    </div> 
+</body>
 
-
-
-<!-- Rinku's Home Page Code End -->
-
-<!-- Tarun's code start there -->
+<!-- footer section starts here -->
 
 <footer>
+    <div style="margin-top: 200px;"></div>
+     
     <div id="footer-wrap">
         <div id="top-footer">    
             <!-- padding of 5% taken from left and right in top footer -->
@@ -729,38 +817,14 @@
             </div> 
         </div>  
     </div>
+
 </footer>
-<!-- Tarun's code Ends there -->
 
-
-
-
-
-
-
-
-
-</body>
 </html>
 
-<script>
-    function aboutUs(){                   
-        window.location.href="aboutUs.html"
-    }
-</script>
+<!-- js file of product info -->
+  <script src="productInfo.js"></script>
 
-
-<script src="pepperfry.js"></script>
-
-<script>
-    function profile(){
-       window.location.href ="login.html";
-
-    }
-
-    function incart(){
-       window.location.href ="cart.html";
-
-    }
-
-</script>
+  <!-- js file of cart  -->
+<script src="cart.js"></script> 
+ 
