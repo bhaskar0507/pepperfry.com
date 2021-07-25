@@ -129,23 +129,23 @@ function prevImage() {
 
 function changeImage(){
     
-    var div_Image = document.getElementById("div-image");
+let div_Image1 = document.getElementById("div-image");
     
     
-    var divs=document.querySelectorAll(".mouse")
+let divs1=document.querySelectorAll(".mouse")
     
-    for(let i=0;i<divs.length;i++)
+    for(let i=0;i<divs1.length;i++)
     {
         
-        divs[i].addEventListener("mouseover", function () {
+        divs1[i].addEventListener("mouseover", function () {
             
-            divs[i].style.border = "1px solid red";
+            divs1[i].style.border = "1px solid red";
              
-            div_Image.innerHTML = ` ${divs[i].innerHTML}  `
+            div_Image1.innerHTML = ` ${divs1[i].innerHTML}  `
               
-                divs[i].addEventListener("mouseout",function(){
+                divs1[i].addEventListener("mouseout",function(){
                    
-                  divs[i].style.border="1px solid white";
+                  divs1[i].style.border="1px solid white";
                   
                 }) 
              
@@ -235,4 +235,6 @@ function aboutUs(){
 // function checkout() {
 //     window.location.href = "paymentpage.html";   
 // }
+
+
 
