@@ -170,7 +170,6 @@ input ~ a ~ div:hover{
 #cart-added>div>div>div>div img{
     border-radius: 7px;
     width: 70%;
-    height: 17vh;
 }
 
 #cart-added>div>div>div>div img:hover{
