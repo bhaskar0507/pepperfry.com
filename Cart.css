@@ -8,7 +8,6 @@
     width: 33%;
     box-shadow: 1px 2px 20px 7px #888;    
     height: 100vh;
-    /* border: 2px solid black;    */
     margin-top:100px;
 }
 
@@ -45,8 +44,6 @@ input ~ a:hover{
     font-weight: bold;
     background-color: white;
     border-radius: 20px;
-    /* padding: 3px; */
-    /* border: 1px solid white; */
 }
 
 input ~ a ~ div{
@@ -68,12 +65,7 @@ input ~ a ~ div:hover{
     border-radius: 50%;
 }
 
-/* .tabs{
-    border: 2px solid white;
-} */
-
 .tabs span{
-    /* border: 1px solid white; */
     cursor: pointer;
     padding: 10px;
     border-top-left-radius: 5px;
@@ -203,5 +195,3 @@ input ~ a ~ div:hover{
     font-size: 17px;
     font-weight: bold;
 }
-
-/* <navbar code> */

@@ -128,21 +128,6 @@ closeCart.addEventListener("click", () => {
     window.location.href="productInfo.html"     //<--- Provide HomePage link here----------------------------------------------------------------------------------------
 })
 
-// function setColor(btn){
-//     var count=1;
-//     var property = document.getElementById(btn);
-//     if (count == 0){
-//         property.style.backgroundColor = "#FFFFFF"
-//         count=1;        
-//     }
-//     else{
-//         property.style.backgroundColor = "#000000"
-//         count=0;
-//     }
-//     console.log(count);
-
-// }
-
 
 /* <Add to cart code by tarun> */
 
@@ -198,24 +183,9 @@ function storeProduct() {
                 window.location.href = "cart.html";     
         
             })
-             
-           
-                // alert(`Product added to cart!`)
-                return;
-        }
-      
+            return;
+        }      
     }
-
-   
-    // console.log(arr)
-
-   
-   
-  
-   
-  
-        
-        
 }
 
 function checkout() {
@@ -224,13 +194,3 @@ function checkout() {
 function home() {
     window.location.href = "landpage.html";   
 }
-
-
- 
- 
-
- 
-
- 
- 
- 

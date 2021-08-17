@@ -1,12 +1,10 @@
 /* CSS of first div(search bar) */
 
 #header{
-    /* border:2px solid black; */
     width:90%;
     margin:auto; 
  }
  #head1{
-     /* border:1px solid red; */
      height:80px;
      display:flex;
      background-color: white;
@@ -37,13 +35,11 @@
      padding:10px;
  }
  #options{
- /* background-color:red; */
  margin:10px 2px;
  display:flex;
  
  }
  .items{
-     /* border:1px solid black; */
     width:50px;
      margin:5px;
      justify-content: center;
@@ -71,9 +67,6 @@
  
 
  *{
-    /* margin: 0;
-    padding: 0; */
-    /* margin-top:50px; */
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;

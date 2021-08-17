@@ -46,9 +46,6 @@ font-family: 'Fira Sans',sans-serif;
         display: flex;
         flex-direction: row;
     }
-     /* .div-col1 div{
-         border: 1px solid black;  
-    }   */
 
     #div1{
        padding-left:28%;
@@ -65,7 +62,6 @@ font-family: 'Fira Sans',sans-serif;
 
     #div21>img{ 
         width:100%;
-        /* border: 1px solid blue; */
     }
     #div22{
         margin-left: 1.5%;
@@ -76,10 +72,6 @@ font-family: 'Fira Sans',sans-serif;
          padding-left: 55%;
          flex-basis: 45%;
     }
-
-    /* #div3 >img{
-          border: 1px solid red;  
-    } */
 
     #col2{
         display: flex;
@@ -93,21 +85,17 @@ font-family: 'Fira Sans',sans-serif;
 
     #div1-col2{
         padding-top:12%;  
-        /* border: 1px solid black; */
     }
 
     #div1-col2>img{
         width:100%;
-        /* border: 1px solid black; */
     }
     
   #div2-col2{  
       margin-top: -12%;
-    /* border: 1px solid black; */
   }
     #div2-col2>img{
         width:100%;
-        /* border: 1px solid black; */
     }
      
     #col3{
@@ -123,21 +111,17 @@ font-family: 'Fira Sans',sans-serif;
     }
     #div11-col3{
         flex-basis: 50%;
-        /* border: 1px solid black; */
     }
      
     #div12-col3{
         padding-top: 20%;
         flex-basis: 50%;
-        /* border: 1px solid black; */
     }
     #div2-col3{
         padding-top:0%;
-        /* border: 1px solid black; */
     }
     #div3-col3{
         padding-top:1%;
-        /* border: 1px solid black; */
     }
     
     

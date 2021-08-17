@@ -37,7 +37,6 @@ h4{
     grid-template-columns: 10% 20% 70% 5%;
     justify-content: center;
     grid-gap: 50px;
-    /* margin-bottom:125px; */
 }
 
 .main-dash-content-filter{
@@ -65,8 +64,7 @@ h4{
 #main-card > div{
     display: grid;
     grid-template-columns: auto;
-    justify-content: start;
-    width: 350px;
+    justify-items: center;
     padding: 5%;
 }
 
@@ -91,6 +89,7 @@ h4{
     cursor: pointer;
     max-width: 350px;
     margin: auto;
+    height: 200px;
 }
 
 #main-card > div > div > div span{

@@ -9,11 +9,6 @@ function signup(){
     let email = data.mail.value;
     let password = data.psw.value;
 
-    // console.log(name);
-    // console.log(mobile);
-    // console.log(email);
-    // console.log(password);
-
     var info = 
         {
             name,
@@ -22,7 +17,6 @@ function signup(){
             password
         }
        
-    // console.log(info);
 
     var arr;
 

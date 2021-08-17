@@ -9,14 +9,10 @@
 #container{
     width:100%;
     margin:auto;
-    /* border:1px solid black; */
-   
-
 }
 #header{
     width:90%;
     margin:auto;
-    /* border:2px solid red; */
     display:flex;
     box-shadow: 1px 1px grey;
 }
@@ -43,8 +39,6 @@
 #container #row2{
     width:90%;
     margin:auto;
-    /* border:1px solid green; */
-    /* margin:0px 20px; */
    margin-top:15px;
 }
 
@@ -52,18 +46,15 @@
     display:flex;
     width: 90%;
     margin:auto;
-    /* border:2px solid pink; */
 
 }
 #content #content1{
     width:65%;
-    /* border:2px solid yellow; */
     margin-right:5%;
     margin-top:20px;
 }
 #content #content2{
     width:30%;
-    /* border:2px solid rgb(12, 6, 37); */
     margin-top:20px;
     box-shadow: 2px 2px grey;
     background-color:rgb(240, 240, 240)
@@ -119,7 +110,6 @@
 }
 #price{
     width:50px;
-    /* border:2px solid brown; */
 }
 #price #pbtn{
     display:flex;

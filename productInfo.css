@@ -5,12 +5,10 @@
 #body-wrap{
     width:100%;
     margin-top:130px;
-    /* background-color: aqua; */  
 }
 #container{
     width: 86%;
     margin: auto;
-    /* background-color: blue; */ 
 }
 .row-PI{
     display: flex;
@@ -29,7 +27,6 @@
 #div-image{
     flex-basis: 77%;
     padding-bottom: 3%;
-    /* background-color: black; */
 }
   #div-image>img{
      width:100%;  
@@ -53,9 +50,7 @@
 
 #flex{
     flex-basis: 85%;
-    /* width:100%; */
     height:100px; 
-    /* background-color: aqua;  */
     display: flex;
     flex-direction: row;
 }
@@ -140,7 +135,6 @@ flex-basis: 20%;
  #promo-img{
      padding:1% 0 1% 0; 
      width:100%; 
-     /* background-color: aqua; */
  }
  #promo-img >img{ 
      width:100%; 
@@ -153,7 +147,6 @@ flex-basis: 20%;
   
 .wrap{
     flex-basis: 25%;
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
 }
