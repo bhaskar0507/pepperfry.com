@@ -82,7 +82,7 @@ else {
     btn.innerHTML = "PROCEED TO PAY SECURELY";
 
     btn.addEventListener("click", function () {
-        window.location.href = "paymentpage.html"; //<--- HERE INSTEAD OF "checkout.html" BETWEEN STRING'S GIVE THE NAME OF THE FILE which is created by @bhaskar    
+        window.location.href = "paymentpage.html";     
     })
 
     btn_div.append(btn);
@@ -125,11 +125,11 @@ selectWish.addEventListener("click", () => {
 
 const closeCart = document.getElementById("cross");
 closeCart.addEventListener("click", () => {
-    window.location.href="productInfo.html"     //<--- Provide HomePage link here----------------------------------------------------------------------------------------
+    window.location.href="productInfo.html"     
 })
 
 
-/* <Add to cart code by tarun> */
+ 
 
 
 
@@ -137,16 +137,7 @@ closeCart.addEventListener("click", () => {
 
 function storeProduct() {
    
-    // var img = document.getElementById("image")
-    // img.src = "https://ii1.pepperfry.com/media/catalog/product/a/m/568x625/amelia-1-seater-sofa-in-charcoal-grey-colour-by-casacraft-amelia-1-seater-sofa-in-charcoal-grey-colo-dgih4v.jpg";
-    // var name = document.getElementById("name")
-    // name.innerHTML = "Amelia 1 Seater Sofa in Charcoal Grey Colour";
-    // var brand = document.getElementById("brand-name")
-    // brand.innerHTML = "CasaCraft by Pepperfry";
-    // var price = document.getElementById("price")
-    // price.innerHTML = 21999;
-    // var cutPrice = document.getElementById("cutPrice")
-    // cutPrice.innerHTML = 35999;
+     
     
     var product = {
         img:"https://ii1.pepperfry.com/media/catalog/product/a/m/568x625/amelia-1-seater-sofa-in-charcoal-grey-colour-by-casacraft-amelia-1-seater-sofa-in-charcoal-grey-colo-dgih4v.jpg",
@@ -177,7 +168,7 @@ function storeProduct() {
             addTOCart.style.background = "linear-gradient(to right,#fdb622 0,#f57a2d 102%)";
         
             
-            // *******   click second time in add to cart box to go to checkout  ***********//
+            
         
             addTOCart.addEventListener("click", function () {
                 window.location.href = "cart.html";     
