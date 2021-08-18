@@ -94,7 +94,7 @@ function showProducts(d) {
         
         let card = document.createElement("div");
         card.addEventListener("click", function () {
-            window.location.href="productInfo.html"      //<--- HERE INSTEAD OF "pepperfry.html" BETWEEN STRING'S GIVE THE NAME OF THE FILE which is created by @tarun    
+            window.location.href="productInfo.html"       
         })
 
 
@@ -142,7 +142,7 @@ function showProducts(d) {
 showProducts(JSON.parse(localStorage.getItem("productData")))
 
 
-// sort functionallities from here
+ 
 
 function sortLH() {
     
@@ -173,7 +173,7 @@ function sortHL() {
 }
 
 
-//sort functions
+ 
 
 
 function sortBrand() {
@@ -271,4 +271,4 @@ function gohome(){
     window.location.href = "landpage.html"
 }
 
-// sort functionality code ends here
+ 
