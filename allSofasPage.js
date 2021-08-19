@@ -268,7 +268,7 @@ function sortPrice60() {
     showProducts(newArr);
 }
 function gohome(){
-    window.location.href = "landpage.html"
+    window.location.href = "homePage.html"
 }
 
  

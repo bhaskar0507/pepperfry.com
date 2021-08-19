@@ -160,13 +160,13 @@ let divs1=document.querySelectorAll(".mouse")
 
   
 function aboutUs(){                   
-    window.location.href="aboutUs.html"
+    window.location.href="footerAboutPage.html"
 }
    function gohome(){ 
-       window.location.href = "landpage.html"
+       window.location.href = "homePage.html"
    }
 
    function incart(){ 
-       window.location.href = "cart.html"
+       window.location.href = "cartPage.html"
    }
 

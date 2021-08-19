@@ -34,7 +34,7 @@ function signup(){
    
     localStorage.setItem('signup',JSON.stringify(arr));
     alert('You are Successfully Registered')
-    window.location.href="landpage.html";
+    window.location.href="homePage.html";
 
 }
 

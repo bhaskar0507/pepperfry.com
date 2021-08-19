@@ -52,5 +52,5 @@ function show(){
 show();
 
 function success(){
-    window.location.href = "success.html"
+    window.location.href = "successPage.html"
 }

@@ -12,7 +12,7 @@ function login(){
             break;
           
         }
-        window.location.href="landpage.html"
+        window.location.href="homePage.html"
        }
    
       return alert("Invalid Credential");

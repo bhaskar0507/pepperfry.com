@@ -19,7 +19,7 @@ if (localStorage.getItem("cart") == null) {
     let b_btn = document.createElement("button");
     b_btn.innerHTML = `<span>CONTINUE SHOPPING<span>`;
     b_btn.addEventListener("click", function () {
-        window.location.href = "allSofas.html";   
+        window.location.href = "allSofasPage.html";   
     })
     b_div.append(b_btn);
 
@@ -98,7 +98,7 @@ else {
 
 function removeCartData() {
     localStorage.removeItem("cart");
-    window.location.href = "cart.html";
+    window.location.href = "cartPage.html";
 }
 
 const selectCart = document.getElementById("cart");
@@ -171,7 +171,7 @@ function storeProduct() {
             
         
             addTOCart.addEventListener("click", function () {
-                window.location.href = "cart.html";     
+                window.location.href = "cartPage.html";     
         
             })
             return;
@@ -183,5 +183,5 @@ function checkout() {
     window.location.href = "paymentpage.html";   
 }
 function home() {
-    window.location.href = "landpage.html";   
+    window.location.href = "homePage.html";   
 }
