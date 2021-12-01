@@ -71,6 +71,6 @@ KEY CONTRIBUTIONS :-
 
 By Shikha Mishra-
 
-* login and sign up page
+* login and sign-up page
 
  
